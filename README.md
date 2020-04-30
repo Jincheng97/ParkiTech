@@ -3,7 +3,16 @@ A parking lot recommendation system. This is the final project of CSE 6242 Data 
 
 Our project aims to solve the parking spot finding problem in San Francisco. We want to design a user-friendly parking recommendation system to help drivers find the desirable parking spots near their destination. The technical difficulties can be broken down into 3 main problems: time series analysis, geographic data aggregation and risk-distance-cost trade-off problem. Detailed description can be found in [our final project report](https://github.com/Jincheng97/ParkiTech/blob/master/CSE6242_final.pdf). 
 
-The original data contains 5,080,320 parking records. After aggregation into 9 clusters, several useful features were extracted, including cluster number, coordinate, record of last 24 hours, arrival time, total capacity and current occupant number, etc. Then we used support vector regression for parking spot number prediction. At last we combined the predicted parking spot number, parking cost and walking distance (from parking lot to destination), and used a Monte Carlo model to search for the best parking lot. The recommendations are presented over Google maps in our webpage. Users can choose between the top 5 parking lots and view navigation info below.
+The original data contains 5,080,320 parking records. After aggregation into 9 clusters, several useful features were extracted, including cluster number, coordinate, record of last 24 hours, arrival time, total capacity and current occupant number, etc. Then we used support vector regression for parking spot number prediction. At last we combined the predicted parking spot number, parking cost and walking distance (from parking lot to destination), and used a Monte Carlo model to search for the best parking lot. 
+<p align="center">
+  <img src="https://github.com/Jincheng97/ParkiTech/blob/master/images/cluster.png" alt="drawing" width="400"/>
+  <img src="https://github.com/Jincheng97/ParkiTech/blob/master/images/example.png" alt="drawing" width="400"/>
+</p>
+
+The recommendations are presented over Google maps in our webpage. Users can choose between the top 5 parking lots and view navigation info below.
+<p align="center">
+  <img src="https://github.com/Jincheng97/ParkiTech/blob/master/images/intro-interface.png" alt="drawing" width="750"/>
+</p>
 
 Our team members include
 - Yingfei Chen (webpage construction, assembly of front/back-end)  
