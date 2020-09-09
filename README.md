@@ -1,5 +1,5 @@
 # ParkiTech
-A parking lot recommendation system. This is the final project of CSE 6242 Data &amp; Visual Anaytics.
+A parking lot recommendation system. This is the final project of CSE 6242 Data &amp; Visual Analytics.
 
 Our project aims to solve the parking spot finding problem in San Francisco. We want to design a user-friendly parking recommendation system to help drivers find the desirable parking spots near their destination. The technical difficulties can be broken down into 3 main problems: time series analysis, geographic data aggregation and risk-distance-cost trade-off problem. Detailed description can be found in [our final project report](https://github.com/Jincheng97/ParkiTech/blob/master/CSE6242_final.pdf). 
 
